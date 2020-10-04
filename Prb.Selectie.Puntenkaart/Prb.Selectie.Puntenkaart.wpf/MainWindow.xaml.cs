@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace oe_selectie_03.wpf
+namespace Prb.Selectie.Puntenkaart.wpf
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -24,6 +24,7 @@ namespace oe_selectie_03.wpf
         {
             InitializeComponent();
         }
+
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
         }
@@ -35,21 +36,21 @@ namespace oe_selectie_03.wpf
         }
         private void TxtWetenschappen_TextChanged(object sender, TextChangedEventArgs e)
         {
-            if(txtWetenschappen.IsLoaded)
+            if (txtWetenschappen.IsLoaded)
             {
             }
         }
 
         private void TxtWiskunde_TextChanged(object sender, TextChangedEventArgs e)
         {
-            if(txtWiskunde.IsLoaded)
+            if (txtWiskunde.IsLoaded)
             {
             }
         }
 
         private void TxtTalen_TextChanged(object sender, TextChangedEventArgs e)
         {
-            if(txtTalen.IsLoaded)
+            if (txtTalen.IsLoaded)
             {
             }
         }
@@ -74,7 +75,7 @@ namespace oe_selectie_03.wpf
             {
             }
         }
- 
+
         private void TxtWetenschappen_GotFocus(object sender, RoutedEventArgs e)
         {
             txtWetenschappen.SelectAll();

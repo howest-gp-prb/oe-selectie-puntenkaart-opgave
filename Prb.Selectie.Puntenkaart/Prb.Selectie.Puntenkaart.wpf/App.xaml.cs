@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace oe_selectie_03.wpf
+namespace Prb.Selectie.Puntenkaart.wpf
 {
     /// <summary>
     /// Interaction logic for App.xaml
